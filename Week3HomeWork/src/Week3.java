@@ -25,7 +25,6 @@ public class Week3 {
         System.out.println(Arrays.toString(addLength(names)));
         System.out.println("Method: 6");
         System.out.println(sumLength(addLength(names)));
-        System.out.println(sumOfDigits(893));
         System.out.println("Method: 7");
         System.out.println(printNumTimes("Hello", 3));//7
         System.out.println("Method: 8");
