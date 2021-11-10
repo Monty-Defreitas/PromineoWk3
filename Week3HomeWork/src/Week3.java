@@ -24,7 +24,7 @@ public class Week3 {
         System.out.println("Method: 5");
         System.out.println(Arrays.toString(addLength(names)));
         System.out.println("Method: 6");
-        System.out.println(sumLength(addLength(names)));
+        sumLength(addLength(names));
         System.out.println("Method: 7");
         System.out.println(printNumTimes("Hello", 3));//7
         System.out.println("Method: 8");
@@ -81,12 +81,12 @@ public class Week3 {
         return nameLengths;
     }
     //Question 6
-    static double sumLength(int[] nLength){
-        double average = 0;
+    static void sumLength(int[] nLength){
+        int nameSum = 0;
         for (int name : nLength) {
-            average += name;
+            nameSum += name;
         }
-        return average / nLength.length;
+        System.out.println(nameSum);
     }
     //Question 7
     static String printNumTimes(String word, int num) {
